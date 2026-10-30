@@ -1,0 +1,2 @@
+import { defineConfig } from 'wxt';
+export default defineConfig({ modules: ['@wxt-dev/module-react'], manifest: { name: 'Kiko', description: 'Your agent. Your words. Anywhere.', permissions: ['storage'], host_permissions: ['http://127.0.0.1:43127/*'], commands: { 'open-kiko': { suggested_key: { default: 'Alt+Shift+K' }, description: 'Open Kiko for the focused field' } }, browser_specific_settings: { gecko: { id: 'kiko@example.org', strict_min_version: '109.0' } } } });

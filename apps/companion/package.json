@@ -1,0 +1,1 @@
+{"name":"@kiko/companion","private":true,"type":"module","dependencies":{"@kiko/shared":"workspace:*","@kiko/agent-protocol":"workspace:*"}}

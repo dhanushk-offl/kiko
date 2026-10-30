@@ -1,0 +1,1 @@
+{"name":"@kiko/agent-protocol","private":true,"type":"module","dependencies":{"@kiko/shared":"workspace:*"},"exports":"./src/index.ts"}
